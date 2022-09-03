@@ -16,6 +16,7 @@ body{
     --background-color-darkgrey: #2F303A; 
     --background-color-lightgrey: #F5F4FA;
     --hover-color: #2196F3;
+    --hover-second-color: #1586dd;
     --border-color-lightgrey: #ECECEC;
     --border-color-lightgrey-second: #EEEEEE;
     --border-color-transparent: transparent;
@@ -243,6 +244,10 @@ body{
     width: 200px;
     height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.btn:hover{
+    background-color: var(--hover-second-color);
 }
 
 .btn-second{
